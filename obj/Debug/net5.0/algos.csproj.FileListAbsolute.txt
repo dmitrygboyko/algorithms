@@ -1,0 +1,15 @@
+/Users/Dima/Dev/Study/algos/bin/Debug/net5.0/algos.deps.json
+/Users/Dima/Dev/Study/algos/bin/Debug/net5.0/algos.runtimeconfig.json
+/Users/Dima/Dev/Study/algos/bin/Debug/net5.0/algos.runtimeconfig.dev.json
+/Users/Dima/Dev/Study/algos/bin/Debug/net5.0/algos.dll
+/Users/Dima/Dev/Study/algos/bin/Debug/net5.0/ref/algos.dll
+/Users/Dima/Dev/Study/algos/bin/Debug/net5.0/algos.pdb
+/Users/Dima/Dev/Study/algos/obj/Debug/net5.0/algos.csprojAssemblyReference.cache
+/Users/Dima/Dev/Study/algos/obj/Debug/net5.0/algos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Dima/Dev/Study/algos/obj/Debug/net5.0/algos.AssemblyInfoInputs.cache
+/Users/Dima/Dev/Study/algos/obj/Debug/net5.0/algos.AssemblyInfo.cs
+/Users/Dima/Dev/Study/algos/obj/Debug/net5.0/algos.csproj.CoreCompileInputs.cache
+/Users/Dima/Dev/Study/algos/obj/Debug/net5.0/algos.dll
+/Users/Dima/Dev/Study/algos/obj/Debug/net5.0/ref/algos.dll
+/Users/Dima/Dev/Study/algos/obj/Debug/net5.0/algos.pdb
+/Users/Dima/Dev/Study/algos/obj/Debug/net5.0/algos.genruntimeconfig.cache
