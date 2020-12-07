@@ -7,9 +7,9 @@ namespace algos
     {
         static void Main(string[] args)
         {
-            var array = new int[]{ 6, 5, 4, 3, 2, 1 };
+            var array = new int[]{ 6, 5, 4, 3, 212, 1, 32, 2 };
 
-            Selection.Sort(array);
+            Insertion.Sort(array);
             Print(array);
 
             Console.ReadLine();
