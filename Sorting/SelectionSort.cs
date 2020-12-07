@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Algorithms.Sorting
 {
-    public static class SelectionSort
+    public static class Selection
     {
         public static void Sort(int[] array)
         {

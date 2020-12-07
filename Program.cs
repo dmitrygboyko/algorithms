@@ -9,7 +9,7 @@ namespace algos
         {
             var array = new int[]{ 6, 5, 4, 3, 2, 1 };
 
-            SelectionSort.Sort(array);
+            Selection.Sort(array);
             Print(array);
 
             Console.ReadLine();
