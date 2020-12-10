@@ -9,7 +9,7 @@ namespace algos
         {
             var array = new int[]{ 6, 5, 4, 3, 212, 1, 32, 2 };
 
-            Insertion.Sort(array);
+            Merge.Sort(array);
             Print(array);
 
             Console.ReadLine();
