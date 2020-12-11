@@ -7,9 +7,9 @@ namespace algos
     {
         static void Main(string[] args)
         {
-            var array = new int[]{ 6, 5, 4, 3, 212, 1, 32, 2 };
+            var array = new int[] { 5, 1, 3, 8, 4, 9, 2, 6 };
 
-            Merge.Sort(array);
+            Quick.Sort(array);
             Print(array);
 
             Console.ReadLine();

@@ -32,5 +32,14 @@ namespace Tests
 
             Assert.Equal(new int[] { 1, 2, 3, 4, 5, 6, 32, 212 }, array);
         }
+
+        [Fact]
+        public void QuickSort()
+        {
+            var array = new int[] { 6, 5, 4, 3, 212, 1, 32, 2 };
+            Quick.Sort(array);
+
+            Assert.Equal(new int[] { 1, 2, 3, 4, 5, 6, 32, 212 }, array);
+        }
     }
 }
