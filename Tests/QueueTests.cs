@@ -22,12 +22,15 @@ namespace Tests
         {
             var queue = new Queue();
             queue.Enqueue(1);
+            queue.Enqueue(2);
 
             // Pre-condition
             Assert.False(queue.IsEmpty);
 
             var dequeuedItem = queue.Dequeue();
             Assert.Equal(1, dequeuedItem);
+            dequeuedItem = queue.Dequeue();
+            Assert.Equal(2, dequeuedItem);
             Assert.True(queue.IsEmpty);
         }
 

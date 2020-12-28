@@ -16,9 +16,19 @@ namespace Algorithms.DataStructures
         {
         }
 
-        public Queue(int queueSize, int growthFactor)
+        public Queue(int queueCapacity, int growthFactor)
         {
-            array = new object[queueSize];
+            if (queueCapacity <= 0)
+            {
+                throw new ArgumentException($"{nameof(queueCapacity)} must be greater than zero");
+            }
+
+            if (growthFactor <= 1)
+            {
+                throw new ArgumentException($"{nameof(growthFactor)} must be greater than one");
+            }
+
+            array = new object[queueCapacity];
             this.growthFactor = growthFactor;
         }
 
@@ -26,8 +36,7 @@ namespace Algorithms.DataStructures
         {
             if (size == array.Length)
             {
-                var newSize = array.Length * growthFactor;
-                ResizeArray(newSize);
+                ResizeArray();
             }
                 
             array[tail] = item;
@@ -62,8 +71,9 @@ namespace Algorithms.DataStructures
 
         public bool IsEmpty => size == 0;
 
-        void ResizeArray(int capacity)
+        void ResizeArray()
         {
+            var capacity = array.Length * growthFactor;
             var newArray = new object[capacity];
 
             if (size > 0)
