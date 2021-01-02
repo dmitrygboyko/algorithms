@@ -1,7 +1,7 @@
 ﻿using Xunit;
 using Algorithms.DataStructures;
 
-namespace Tests
+namespace Tests.DataStructures
 {
     public class QueueTests
     {
