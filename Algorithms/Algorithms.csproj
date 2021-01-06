@@ -8,5 +8,7 @@
   <ItemGroup>
     <Folder Include="Sorting\" />
     <Folder Include="DataStructures\" />
+    <Folder Include="Challenges\" />
+    <Folder Include="Challenges\ProblemSolving\" />
   </ItemGroup>
 </Project>
